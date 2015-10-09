@@ -1,0 +1,8 @@
+Plugin Name: gcSequencer
+Plugin Version: 5.6.1
+Server Main: com.growcontrol.plugins.gcseq.server.gcSeq.class
+Client Main: com.growcontrol.plugins.gcseq.client.gcSeq.class
+Author: lorenzop
+Website: http://growcontrol.com/
+Depend: []
+SoftDepend: []
