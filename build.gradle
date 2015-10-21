@@ -8,7 +8,7 @@ plugins {
 
 
 version = '3.6.1'
-group   = 'com.growcontrol.plugins.gcseq'
+group   = 'com.growcontrol.plugins.gcsequencer'
 defaultTasks 'clean', 'build', 'install'
 
 def junitVersion = '4.12'
@@ -36,7 +36,7 @@ sourceSets {
 
 
 jar {
-	archiveName = "${project.name}-${project.version}-sparse.jar"
+	archiveName = "${project.name}-${project.version}.jar"
 }
 
 
@@ -45,8 +45,7 @@ repositories {
 	jcenter()
 }
 dependencies {
-	compile fileTree( dir: '../output/', include: ["gcServerAPI-${project.version}.jar"] )
-	compile fileTree( dir: '../output/', include: ["gcClientAPI-${project.version}.jar"] )
+	compile fileTree( dir: '../output/', include: ["gcAPI-${project.version}.jar"] )
 	compile fileTree( dir: '../output/', include: ["gcCommon-${project.version}.jar"] )
 	testCompile "junit:junit:${junitVersion}"
 }
