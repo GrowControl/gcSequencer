@@ -1,5 +1,5 @@
 Plugin Name: gcSequencer
-Plugin Version: 5.6.1
+App Version: 3.6.2
 Server Main: com.growcontrol.plugins.gcsequencer.server.gcSequencer.class
 Client Main: com.growcontrol.plugins.gcsequencer.client.gcSequencer.class
 Author: lorenzop
